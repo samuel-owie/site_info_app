@@ -34,6 +34,12 @@ class _LocationInputState extends State<LocationInput> {
               label: Text('Current Location'),
               textColor: Theme.of(context).primaryColor,
               onPressed: (){},
+            ),
+            FlatButton.icon(
+              icon: Icon(Icons.map,), 
+              label: Text('Select on Map'),
+              textColor: Theme.of(context).primaryColor,
+              onPressed: (){},
             )
           ],
         )
